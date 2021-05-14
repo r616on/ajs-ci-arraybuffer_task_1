@@ -1,8 +1,8 @@
-import Math_ from "../Math_";
+import MathChr from '../MathChr';
 
-export default class Magician extends Math_ {
+export default class Magician extends MathChr {
   constructor(name) {
-    super(name, "Magician", 100);
+    super(name, 'Magician', 10);
     this.defence = 40;
   }
 }
